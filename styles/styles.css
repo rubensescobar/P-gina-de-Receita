@@ -1,13 +1,51 @@
-body {
+:root{
+  font-family: "Alice", serif;
   /* background-color: #573824; */
   /* surface-color: #F0E8C2 */
   /* text-color-primary: #291B1A */
   /* text-color-secondary: #573a37 */
   /* text-color-on-bg: #F0E8C2 */
-font-family: "Alice", serif;
+  color: #573a37;
+
+}
+
+body {
+
+
+background-image: url(/assets/images/bg-image.jpg);
+background-size: cover;
 
   
 }
+
+#container {
+  width: 50rem;
+  padding: 1.5rem;
+  margin: 3rem auto;
+  background-color: #F0E8C2;
+  border-radius: 1rem;
+
+  /* O box sizing border-box tirou os espaços que o padding/margin adicionaram */
+  box-sizing: border-box;
+
+}
+
+img { 
+  border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
    font-size: 2.5rem;
@@ -21,8 +59,20 @@ line-height: 150%;
 font-weight: 400;
 }
 
+h1, h2 {
+color: #291B1A;
+}
+
 p {
   font-size: 16px;
   line-height: 150%;
   font-weight: 400;
+  
+
 }
+#about ul {
+  list-style: none;
+  /* margin: 0; */
+  padding: 0;
+}
+
