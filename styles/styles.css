@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
 :root{
   font-family: "Alice", serif;
   /* background-color: #573824; */
@@ -21,7 +26,7 @@ background-size: cover;
 #container {
   width: 50rem;
   padding: 1.5rem;
-  margin: 3rem auto;
+  margin: 3rem auto 1.75rem;
   background-color: #F0E8C2;
   border-radius: 1rem;
 
@@ -34,10 +39,33 @@ img {
   border-radius: 1rem;
 }
 
+main {
+  padding: 1.5rem;
+  
+}
 
+#about p {
+  margin-bottom: .75rem;
+}
 
+#about ul {
+  list-style: none;
+  /* margin: 0; */
+  padding: 0;
+}
 
+section + section {
+  margin-top: 1.5rem;
+}
 
+#ingredients ul {
+  padding-left: 1.5rem;
+  
+}
+
+#ingredients li {
+  padding-bottom: .4rem ;
+}
 
 
 
@@ -51,16 +79,18 @@ h1 {
    font-size: 2.5rem;
    line-height: 140%;
    font-weight: 400;
+   
 }
 
 h2 { 
-font-size: 40px;
+font-size: 1.5rem;
 line-height: 150%;
 font-weight: 400;
 }
 
 h1, h2 {
 color: #291B1A;
+margin-bottom: .25rem;
 }
 
 p {
@@ -70,9 +100,14 @@ p {
   
 
 }
-#about ul {
-  list-style: none;
-  /* margin: 0; */
-  padding: 0;
-}
 
+footer {
+  padding-bottom: 3rem;
+  text-align: center;
+  color: #F0E8C2;
+
+}
+footer img {
+
+  vertical-align: middle;
+}
